@@ -52,6 +52,7 @@
   - 8030
   - 8031
   - 8032
+  - 8033
   - 9000
 
 - name: Open all ports from ip {{ item.1 }} in the firewall
