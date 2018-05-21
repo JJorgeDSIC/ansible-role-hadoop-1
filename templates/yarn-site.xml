@@ -4,7 +4,7 @@
 		
 {% if hadoop_type_of_node == 'master' %}
 					 <name>yarn.resourcemanager.hostname</name>
-                <value>0.0.0.0</value>
+                <value>{{ hadoop_master }}</value>
 {% elif hadoop_type_of_node == 'resourcemanager' %}
 					 <name>yarn.resourcemanager.hostname</name>
 	 				 <value>0.0.0.0</value>
