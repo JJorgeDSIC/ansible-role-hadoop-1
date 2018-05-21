@@ -7,7 +7,7 @@ hadoop_mirrors: [ "http://apache.rediris.es/hadoop/core", "http://www-eu.apache.
 # Hadoop version to install: latest or version num
 hadoop_version: latest
 # A dictionary with a set of properties to set in the hdfs-site.xml
-hdfs_props: {}
+hdfs_props: {"dfs.permissions.enabled" : "false"}
 # A dictionary with a set of properties to set in the yarn-site.xml
 yarn_props: {}
 # A dictionary with a set of users to configure hdfs
